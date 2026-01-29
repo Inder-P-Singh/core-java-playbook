@@ -37,7 +37,7 @@ This repository is intentionally simple and runnable.
 ## How to run
 
 ### Prerequisites
-- Java 17+
+- Java 17+ (or compatible)
 - Maven 3.8+
 - Git
 
@@ -52,21 +52,44 @@ mvn -v
 
 ### Run sample programs
 
+Compile and run the example programs that demonstrate fundamentals.
+
 ```bash
 cd programs
 javac PrepareEnv.java
-java PrepareEnv
+java PrepareEnv.java
 
 javac RunSample.java
-java RunSample
+java RunSample.java
+```
+
+### Run core Java programs
+
+Compile and run the core Java example programs located in `playbook_examples`:
+
+```bash
+# from repo root
+cd ..\playbook_examples
+
+# Run the basic demo on Java String, operators and for loop/ while loop located in `playbook_examples`
+javac BasicsDemo.java
+java BasicsDemo
+
+# Run the operator precedence demo located in `playbook_examples`
+javac OperatorsPrecedenceDemo.java
+java OperatorsPrecedenceDemo
+
+# Run the Object-Orient Programming (OOP) demo located in `playbook_examples`
+javac ClassDemo.java
+java ClassDemo.java
 ```
 
 ---
 
 ## Notes
 
-* Selenium here is simulated (no browser dependency)
-* Real Selenium setup comes in later sessions
-* Designed to run offline (CI safe)
+* Selenium here is simulated (no browser dependency) until later sessions.
+* If you plan to run browser-based tests, install browser binaries or use Selenium Manager.
+* For CI runs, configure `--skip-network` or use local mocks/wiremock for stable API tests.
 
 ---
