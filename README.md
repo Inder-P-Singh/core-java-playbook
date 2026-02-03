@@ -93,3 +93,9 @@ java ClassDemo.java
 * For CI runs, configure `--skip-network` or use local mocks/wiremock for stable API tests.
 
 ---
+
+## Learn more
+
+* Java strategies to build Test Automation Frameworks blog post https://inderpsingh.blogspot.com/2026/01/java-automation.html
+
+---
