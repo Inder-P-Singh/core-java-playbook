@@ -96,6 +96,7 @@ java ClassDemo.java
 
 ## Learn more
 
+* Core Java Playbook video https://youtu.be/H2Csz1RRTTM
 * Java strategies to build Test Automation Frameworks blog post https://inderpsingh.blogspot.com/2026/01/java-automation.html
 
 ---
