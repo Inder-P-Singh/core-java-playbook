@@ -86,9 +86,22 @@ java ClassDemo.java
 
 ---
 
+### Run Selenium Java test
+
+Compile and run the Selenium Java example program located in `playbook_examples`:
+
+```bash
+# from repo root
+mvn -v
+
+# Run the stand-alone Selenium Java test on Swag Labs
+mvn test
+```
+
+---
+
 ## Notes
 
-* Selenium here is simulated (no browser dependency) until later sessions.
 * If you plan to run browser-based tests, install browser binaries or use Selenium Manager.
 * For CI runs, configure `--skip-network` or use local mocks/wiremock for stable API tests.
 
@@ -98,5 +111,5 @@ java ClassDemo.java
 
 * Core Java Playbook video https://youtu.be/H2Csz1RRTTM
 * Java strategies to build Test Automation Frameworks blog post https://inderpsingh.blogspot.com/2026/01/java-automation.html
-
+* If you have any questions, message https://www.linkedin.com/in/inderpsingh/
 ---
